@@ -48,7 +48,7 @@ private:
 //    LIBSSH2_SFTP *sftp_session;
 
 //    const char *fingerprint;
-    int iStatus;
+//    int iStatus;
 
     QString sftp_path;
 

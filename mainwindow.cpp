@@ -31,7 +31,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     isCover = false;
     isWarning = true;
-    iStatus = -1;
+//    iStatus = -1;
     sftp_path = "/home/meshon/SavedVideos";
     my_downloader = new DownloadThread();
     //my_Configure = new Configure();
