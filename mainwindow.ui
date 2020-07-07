@@ -192,6 +192,12 @@
               <pointsize>11</pointsize>
              </font>
             </property>
+            <property name="toolTip">
+             <string>Download</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>3000</number>
+            </property>
             <property name="text">
              <string/>
             </property>
@@ -217,6 +223,12 @@
               <width>50</width>
               <height>16777215</height>
              </size>
+            </property>
+            <property name="toolTip">
+             <string>Refresh</string>
+            </property>
+            <property name="toolTipDuration">
+             <number>3000</number>
             </property>
             <property name="text">
              <string/>
