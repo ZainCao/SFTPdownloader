@@ -17,7 +17,7 @@ MainWindow::MainWindow(QWidget *parent) :
 
     qRegisterMetaType<std::vector<unsigned long long>>("std::vector<unsigned long long>");
     ui->setupUi(this);
-    setWindowTitle("Videos Downloader");
+    setWindowTitle("Meshon Videos Downloader");
     setFixedSize(this->width(), this->height());
     ui->listWidget->setSelectionRectVisible(true);
     ui->listWidget->setSelectionMode(QListView::NoSelection);
@@ -143,6 +143,7 @@ void MainWindow::setProgressbar(int percentage,int indexOfFile)
 void MainWindow::readConfigure()
 {
     QSettings settings(configFileName,QSettings::IniFormat);
+    settings.setIniCodec("UTF8");
     QString downloadPath = settings.value("Configure/downloadpath").toString();
     if(downloadPath == "")
     {
